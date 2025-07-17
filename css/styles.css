@@ -4,8 +4,6 @@ body {
     background-color: #fff;
 }
 
-/* reset */
-
 ul, ol {
     list-style-type: none;
     margin: 0;
@@ -70,6 +68,10 @@ img {
     color: #f4f4fd;
 }
 
+.footer-logo {
+    margin-bottom: 16px;
+}
+
 .nav-list {
     display: flex;
     align-items: center;
@@ -127,8 +129,6 @@ img {
 .nav-link:focus::after {
     transform: scaleX(1);
 }
-
-
 
 .contacts {
     font-style: normal;
@@ -550,6 +550,3 @@ img {
 .element-portfolio:hover .portfolio-overlay {
     transform: translateY(0);
 }
-
-
-
